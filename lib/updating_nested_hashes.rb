@@ -59,14 +59,15 @@ def add_characters
          ]
       }
    }
-    binding.pry
+    #binding.pry
    
 
    # Write code below that does the following programmatically:
    epic_tragedy[:additional_characters] =[]
    prince = {:name=>"Prince Escalus"}
    Apothecary = {:name => "Apothecary"}
-   
+   epic_tragedy[:additional_characters] << Prince
+   epic_tragedy[:additional_characters] << Apothecary
    #For the first hash, assign "Prince Escalus" as the :name
 For the second ha
    
