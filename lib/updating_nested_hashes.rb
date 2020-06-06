@@ -65,7 +65,7 @@ def add_characters
    # Write code below that does the following programmatically:
   
    #For the first hash, assign "Prince Escalus" as the :name
-For the second ha
+
    
    
    # - Add an additional :additional_characters key to epic_tragedy and assign it an array as its value
