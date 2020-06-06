@@ -1,3 +1,6 @@
+
+    require "pry"
+
 def update_status
    epic_tragedy = {
       :montague => {
@@ -20,17 +23,21 @@ def update_status
       }
    }
 
+#binding.pry
   # Write code that changes the status of both Romeo and Juliet from "alive" to "dead"
   # Code your solution here:
 
-
-
+    epic_tragedy[:montague][:hero][:status] = "dead"
+  
+   epic_tragedy[:capulet][:heroine][:status] = "dead"
 
   # After your code, the following code will return the altered hash. This method must only return the modified epic_tragedy hash
   epic_tragedy
 end
+# binding.pry
 
 def add_characters
+  
    epic_tragedy = {
       :montague => {
          :patriarch => {name: "Lord Montague", age: "53"},
@@ -48,9 +55,12 @@ def add_characters
          :heroine_friends => [
          {name: "Steven", age: "30", attitude: "confused"},
          {name: "Nurse", age: "44", attitude: "worried"}
+       
          ]
       }
    }
+    binding.pry
+   
 
    # Write code below that does the following programmatically:
    #
